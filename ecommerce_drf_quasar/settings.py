@@ -50,6 +50,7 @@ INSTALLED_APPS = [
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
+        # 'rest_framework.permissions.AllowAny',
         # solo t deja leer
         # 'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly',
         'rest_framework.permissions.IsAuthenticatedOrReadOnly',
@@ -186,12 +187,15 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # AUTH_USER_MODEL = "auth.User"
 AUTH_USER_MODEL = "users.User"
 
+# CORS_ORIGIN_ALLOW_ALL = True
+
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8080"
+    "http://localhost:8080",
+    "http://127.0.0.1:8000",
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    "http://localhost:8080"
+    "http://localhost:8080",
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

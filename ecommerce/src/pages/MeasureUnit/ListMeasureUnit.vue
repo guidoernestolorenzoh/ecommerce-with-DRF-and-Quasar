@@ -44,12 +44,18 @@
 import { ref } from 'vue'
 import { defineComponent } from 'vue'
 
+import axios from "axios";
+
+axios.defaults.xsrfHeaderName = "X-CSRFToken";
+axios.defaults.xsrfCookieName = "csrftoken";
+
 export default defineComponent({
   name: 'ListMeasureUnit',
 
   data(){
     const selected = ref([])
     return{
+      measureUnitId: this.$route.params.measureUnitId,
       columns:[
         {
         name: 'id',
@@ -94,8 +100,25 @@ export default defineComponent({
         console.log(err)
       })
     },
-    editMeasureUnit(idMeasure){
-      console.log(idMeasure)
+    // editMeasureUnit(idMeasure){
+    //   console.log(idMeasure)
+    // },
+    editMeasureUnit(measureUnitId){
+      const path = `http://localhost:8000/products/measure_units/${measureUnitId}/`      
+      
+      // this.$axios.put(`http://localhost:8000/products/measure_units/${measureUnitId}/`)
+      this.$axios.put(path, this.columns).then((response) => {
+        this.columns.description = response.data.description;
+
+        this.columns.description = '';
+      })
+      .then(res=>{
+        this.rows = res.data;
+        console.log(this.rows)
+      })
+      .catch(err=>{
+        console.log(err)
+      })
     },
     deleteMeasureUnit(idMeasure){
       console.log(idMeasure)

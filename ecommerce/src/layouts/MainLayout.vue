@@ -66,7 +66,10 @@
 <script>
 import { defineComponent, ref } from 'vue'
 // import EssentialLink from 'components/EssentialLink.vue'
+import axios from "axios";
 
+axios.defaults.xsrfHeaderName = "X-CSRFToken";
+axios.defaults.xsrfCookieName = "csrftoken";
 
 
 export default defineComponent({

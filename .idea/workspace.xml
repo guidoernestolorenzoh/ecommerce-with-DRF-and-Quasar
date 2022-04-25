@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8827261-42e9-453e-b822-ddaef165d2d3" name="Default Changelist" comment="second commit">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/34f1951a-3ccc-4ec8-bed5-018b50221b15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bd52b4c3-bf4d-4e2e-ae34-0e1314172e4c.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ecommerce_drf_quasar.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/pages/MeasureUnit.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/router/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/router/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce_drf_quasar/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce_drf_quasar/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="24Fb9rcUJEYE462U82U58TkOn0s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Personal\Proyecto Django\ecommerce_drf_quasar\media\products" />
+      <recent name="D:\Personal\Proyecto Django\ecommerce_drf_quasar\apps\users\api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Personal\Proyecto Django\ecommerce_drf_quasar\media\products" />
+      <recent name="D:\Personal\Proyecto Django\ecommerce_drf_quasar\apps\products\api\serializers" />
+      <recent name="D:\Personal\Proyecto Django\ecommerce_drf_quasar\apps" />
+      <recent name="D:\Personal\Proyecto Django\ecommerce_drf_quasar\ecommerce\api" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ecommerce_drf_quasar" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ecommerce_drf_quasar.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Personal\Proyecto Django\ecommerce_drf_quasar\env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8827261-42e9-453e-b822-ddaef165d2d3" name="Default Changelist" comment="" />
+      <created>1643229133930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643229133930</updated>
+      <workItem from="1643229173490" duration="5311000" />
+      <workItem from="1643292565502" duration="9813000" />
+      <workItem from="1643378814957" duration="8921000" />
+      <workItem from="1643646054344" duration="5916000" />
+      <workItem from="1643661499887" duration="5005000" />
+      <workItem from="1643724561957" duration="9680000" />
+      <workItem from="1643814985826" duration="3866000" />
+      <workItem from="1643828449007" duration="3106000" />
+      <workItem from="1643898903164" duration="4119000" />
+      <workItem from="1643987648382" duration="14622000" />
+      <workItem from="1644245337349" duration="9125000" />
+      <workItem from="1644327393110" duration="9999000" />
+      <workItem from="1644508194063" duration="10102000" />
+      <workItem from="1644604052438" duration="3768000" />
+      <workItem from="1645109792026" duration="777000" />
+      <workItem from="1645192978125" duration="5982000" />
+      <workItem from="1646058165125" duration="18000" />
+      <workItem from="1646143358051" duration="11770000" />
+      <workItem from="1646228249433" duration="6308000" />
+      <workItem from="1646323519353" duration="13749000" />
+      <workItem from="1646410527068" duration="10359000" />
+      <workItem from="1646426851104" duration="276000" />
+      <workItem from="1646427172863" duration="678000" />
+      <workItem from="1649777010631" duration="3283000" />
+      <workItem from="1649953156381" duration="1395000" />
+      <workItem from="1650300702412" duration="3605000" />
+      <workItem from="1650306659216" duration="342000" />
+      <workItem from="1650307640130" duration="40720000" />
+      <workItem from="1650577121034" duration="676000" />
+      <workItem from="1650577808337" duration="3771000" />
+      <workItem from="1650638210282" duration="17000" />
+      <workItem from="1650638255880" duration="487000" />
+      <workItem from="1650638760387" duration="225000" />
+      <workItem from="1650639016132" duration="39000" />
+      <workItem from="1650642279223" duration="44000" />
+      <workItem from="1650902048110" duration="72000" />
+    </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1650576822548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650576822549</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
+</project>

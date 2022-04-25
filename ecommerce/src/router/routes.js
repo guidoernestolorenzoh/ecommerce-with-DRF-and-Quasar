@@ -4,9 +4,13 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '/measure-unit', component: () => import('pages/MeasureUnit.vue') },
+      { path: '/measure-unit', component: () => import('pages/MeasureUnit/ListMeasureUnit.vue') },
       { path: '/category-product', component: () => import('pages/CategoryProduct.vue') },
     ]
+  },
+  {
+    path: '/login',
+    component: () => import('pages/Login.vue')
   },
 
   // Always leave this as last one,
